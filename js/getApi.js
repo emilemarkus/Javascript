@@ -4,7 +4,6 @@ var myHeaders = new Headers();
 var myInit = {
     method: 'GET',
     headers: myHeaders,
-    mode: 'cors',
     cache: 'default'
 };
 async function getQuote() {
